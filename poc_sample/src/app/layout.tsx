@@ -2,6 +2,7 @@ import Navbar from "@/components/common/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { SearchProvider } from "./context/searchContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,8 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navbar />
-        <div className="mx-auto container mt-5 relative">{children}</div>
+        <SearchProvider>
+          <Navbar />
+          <div className="mt-5 relative">{children}</div>
+        </SearchProvider>
       </body>
     </html>
   );

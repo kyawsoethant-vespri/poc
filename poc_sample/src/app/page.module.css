@@ -1,9 +1,9 @@
 .cardContainer {
-  @apply flex flex-wrap justify-center gap-7 mb-7;
+  @apply flex flex-wrap justify-center gap-7 mb-24 mt-24;
 }
 
 .btnContainer {
-  @apply my-10 flex gap-7 items-center justify-center bottom-0 fixed left-[35%] bg-slate-200;
+  @apply mt-10 flex gap-7 items-center justify-center w-screen fixed h-20 bottom-0 bg-white border-t-2;
 }
 
 .APlusBtn {

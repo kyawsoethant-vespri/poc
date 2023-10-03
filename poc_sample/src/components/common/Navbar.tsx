@@ -5,7 +5,7 @@ import { SearchInput } from "../utils/SearchInput";
 const Navbar = () => {
   return (
     <nav className={styles.nav}>
-      <div className=""> A Bank </div>
+      <div className={styles.logo}> A Bank </div>
       <div className="">
         <SearchInput />
       </div>

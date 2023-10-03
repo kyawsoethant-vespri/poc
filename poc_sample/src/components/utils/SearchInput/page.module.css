@@ -5,3 +5,7 @@
 .input {
   @apply outline-none border-none;
 }
+
+.icon {
+  @apply cursor-pointer;
+}
