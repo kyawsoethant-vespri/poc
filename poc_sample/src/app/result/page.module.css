@@ -1,0 +1,19 @@
+.resultContainer {
+  @apply flex justify-center items-center;
+}
+
+.content {
+  @apply w-[500px] min-h-[550px]  justify-center flex flex-col items-center gap-5;
+}
+
+.h4 {
+  @apply text-center font-bold font-mono text-2xl border-b-4 border-violet-700;
+}
+
+/* .imgContainer {
+  @apply w-full h-[70%];
+} */
+
+.buttonHome {
+  @apply bg-violet-700 mb-3;
+}

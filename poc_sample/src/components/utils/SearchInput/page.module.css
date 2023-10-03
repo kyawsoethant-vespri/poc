@@ -1,0 +1,7 @@
+.search {
+  @apply border border-solid border-slate-950 bg-white rounded-md px-2 outline-none flex items-center;
+}
+
+.input {
+  @apply outline-none border-none;
+}

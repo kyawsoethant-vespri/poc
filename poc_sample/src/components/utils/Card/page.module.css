@@ -1,0 +1,11 @@
+.cardContainer {
+  @apply w-[250px] h-[350px] border border-slate-600 rounded-md shadow-lg flex flex-col;
+}
+
+.imgContainer {
+  @apply relative w-full h-[210px] flex-1;
+}
+
+.content {
+  @apply flex flex-col justify-start w-full h-[90px] p-3 overflow-hidden;
+}
